@@ -4,6 +4,7 @@ body
   font-family: Arial, Helvetica, sans-serif; 
   margin: 0px 0px;
   min-width: 800px;
+  margin-top: 100px;
 } 
 
 #nav 
@@ -106,6 +107,11 @@ body
   width: 100px;
 }
 
+.nelson
+{
+  margin-bottom: 5px;
+}
+
 .partieTexte
 {
   border: 1px solid #e0c6e1;
@@ -118,7 +124,7 @@ body
   margin-left: 0px;
   margin-right: 0px;
   background-color: white;
-  padding: 30px;
+  padding: 50px;
 }
 
 .conference
@@ -184,5 +190,24 @@ body
 } 
 
 
+.photosAmis
+{
+  margin: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
+.nomPhoto
+{
+  width:300px;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.photoPersonne
+{
+  vertical-align: middle;
+  margin-right: 20px;
+}
               
