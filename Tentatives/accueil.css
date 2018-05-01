@@ -3,11 +3,12 @@ body
   background-color: #f8f2f8; 
   font-family: Arial, Helvetica, sans-serif; 
   margin: 0px 0px;
+  min-width: 800px;
 } 
 
 #nav 
 {     
-  font-weight:bold; 
+  font-weight:normal; 
   font-size: 1.2em;
   background-color:#e0c6e1;
   width: 100%;
@@ -15,40 +16,42 @@ body
   height: 100%;
   height:70px;
   line-height: 70px;
-
+  display: flex;
+  border-bottom: 1px solid #ad90af;
+  position: fixed;
+  top:0;
 }
 
 #maRecherche
 {
+  margin-left: 30px;
   height: 30px;
   font-size: 1em;
-  margin-right: 20%;
 }
 
-
-
-#nav #rob1
+#milieu
 {
-  float:right;
-  margin-right: 30px;
+  margin: auto;
 }
 
-
+#droite
+{
+  margin-left:auto;
+  margin-right: 20px;
+}
 
 #nav img
 {
   vertical-align: middle;
   margin-bottom: 5px;
-  border: 1px solid black;
-
+  margin-left: 20px;
 }
 
 #nav #logo
 {
-  float:left;
-  margin-right: 20px;
   margin-left: 5px;
   margin-top: 5px;
+  margin-right: 20px;
 }
 
 #nav a
@@ -60,10 +63,118 @@ body
 
 }
 
-#contenu
+#nouvellePubli
 {
-  font-family: Arial, Helvetica, sans-serif;
+  border: 1px solid #e0c6e1;
+  border-radius: 10px;
+  min-width: 800px;
+  height: 70px;
+  margin: 100px 100px 0px 200px;
+  background-color: white;
+  line-height: 70px;
+  padding: 10px;
+  display: flex;
 }
+
+#nvPb
+{
+  margin-right: auto;
+}
+
+#nouvellePubli img
+{
+  float: right;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 20px;
+}
+
+.publication
+{
+  display: flex;
+  margin-right: 100px;
+}
+
+.publicateur
+{
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size:0.8em;
+  text-align: center;
+  width: 100px;
+}
+
+.partieTexte
+{
+  border: 1px solid #e0c6e1;
+  border-radius: 10px;
+  width: 820px;
+  height: auto;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+  background-color: white;
+  padding: 30px;
+}
+
+.conference
+{
+  font-weight: bold;
+}
+
+.description
+{
+  text-align: justify;
+}
+
+.lieuDate
+{
+  display: inline-flex;
+  margin-top: 15px;
+  color: #ad90af;
+}
+
+
+.lieu
+{
+  margin: auto;
+  vertical-align: -4px;
+}
+
+.date
+{
+  margin: auto;
+  vertical-align: -4px;
+  margin-left: 30px;
+}
+
+
+.LCP
+{
+  width: 100px;
+  float: right;
+  margin: auto;
+
+}
+
+.LCP img
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.like
+{
+  padding-bottom: 10px;
+}
+
 
 #footer 
 { 
