@@ -36,18 +36,11 @@ catch(Exception $e)
     </div>
   </div>
 
-  <div class="photosAmis">
-    <?php 
 
-  define('DB_SERVER','localhost');
-  define('DB_USER','root');
-  define('DB_PASS','root');
-  $database = "r0b1";
-
-
-  
-
-    $sql = "SELECT photo_video.nom_fichier, user.prenom, user.nom FROM photo_video, publication, user WHERE user.id_user=publication.id_proprio AND publication.id_publication=photo_video.id_publication AND photo_video.photoProfil='1'";
+  <div class="presentationProfil">
+    <div class="photoDeProfil">
+      <?php 
+    $sql = "SELECT photo_video.nom_fichier, user.prenom, user.nom FROM photo_video, publication, user WHERE user.id_user=publication.id_proprio AND publication.id_publication=photo_video.id_publication AND photo_video.photoProfil='1' AND user.prenom='Rob1'";
     
     $result = $bdd->query($sql);
     while($data = $result->fetch()){
@@ -57,7 +50,43 @@ catch(Exception $e)
       <?php
       
     }
-?>
+      ?>
+    </div>
+  </div>
+
+
+  <div class="publication">
+    <div class="publicateur">
+      <img src="Ressources/nelson.png" class="nelson" border="0" style="width: 100px;"> <br />Nelson Kakpo
+    </div>
+    <div class="partieTexte">
+      <div class="conference"> 
+        Conférence métiers
+      </div>
+      <div class="description">
+        <br />
+          Dans le souci d’assurer un contact étroit et constructif entre ses étudiants et le monde professionnel, la Faculté des Sciences Appliquées de l’Université de Liège organise depuis longtemps des visites, des stages et des travaux de fin d’études en entreprise. Dans ce même esprit, la Faculté des Sciences Appliquées organise un cycle de conférences intitulées 'Des ingénieurs parlent de leur métier'.
+
+          Au travers de témoignages d'ingénieurs, les conférences brossent le tableau de la place des ingénieurs dans les entreprises, de la diversité actuelle des parcours professionnels d’ingénieurs civils et des apports des ingénieurs dans la société.
+        <br />
+      </div>
+      <div class="lieuDate">
+        <span class="lieu"> <img src="Ressources/lieu.png" class="lieu" border="0" style="width: 20px;"> Eiffel 1 - EM 09</span>
+        <span class="date"> <img src="Ressources/date.png" class="date" border="0" style="width: 20px;"> 21 Juin 2018 </span>
+      </div>
+    </div>
+
+    <div class="LCP">
+      <img src="Ressources/like.png" class="like" border="0" style="width: 50px;">
+      <img src="Ressources/commenter.png" class="commenter" border="0" style="width: 50px;">
+      <img src="Ressources/partager.png" class="partager" border="0" style="width: 50px;">
+    </div>
+  </div>
+
+
+
+  <div class="photosAmis">
+    
 
 
   </div>

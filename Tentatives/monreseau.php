@@ -38,15 +38,6 @@ catch(Exception $e)
 
   <div class="photosAmis">
     <?php 
-
-  define('DB_SERVER','localhost');
-  define('DB_USER','root');
-  define('DB_PASS','root');
-  $database = "r0b1";
-
-
-  
-
     $sql = "SELECT photo_video.nom_fichier, user.prenom, user.nom FROM photo_video, publication, user WHERE user.id_user=publication.id_proprio AND publication.id_publication=photo_video.id_publication AND photo_video.photoProfil='1'";
     
     $result = $bdd->query($sql);
@@ -61,13 +52,6 @@ catch(Exception $e)
 
 
   </div>
-
-
-  
-  
-
-
-
         <div id="footer">Copyright 2018 Prime Properties<br />
           <a href="mailto:prime.properties@gmail.com">prime.properties@gmail.com</a>
         </div>
