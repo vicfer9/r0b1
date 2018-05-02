@@ -9,17 +9,17 @@
 <body>
   <div id="nav">
 
-    <a href="accueil.html"><img src="Ressources/logo.png" id="logo" border="0" style="width: 60px;"></a>
+    <a href="accueil.php"><img src="Ressources/logo.png" id="logo" border="0" style="width: 60px;"></a>
     <div id="milieu">
-    <a href="emplois.html">Emplois</a> 
+    <a href="emplois.php">Emplois</a> 
     <input type="text" id="maRecherche" placeholder="Recherche">
     </div>
     <div id="droite">
-    <a href="monreseau.html">Mon réseau</a> 
-    <a href="messagerie.html"><img src="Ressources/msg.png" id="msg" border="0" style="width: 60px;"></a>
-    <a href="notifications.html"><img src="Ressources/notif.png" id="notif" border="0" style="width: 60px;"></a>
+    <a href="monreseau.php">Mon réseau</a> 
+    <a href="messagerie.php"><img src="Ressources/msg.png" id="msg" border="0" style="width: 60px;"></a>
+    <a href="notifications.php"><img src="Ressources/notif.png" id="notif" border="0" style="width: 60px;"></a>
     
-    <a href="profil.html" id="rob1"><img src="Ressources/rob1.png"  border="0" style="width: 60px;"> Robin </a>
+    <a href="profil.php" id="rob1"><img src="Ressources/rob1.png"  border="0" style="width: 60px;"> Robin </a>
     </div>
   </div>
 
@@ -45,3 +45,9 @@
 
   </body>
 </html>
+
+<?php
+$age_du_visiteur = 17;
+
+echo "tamere";
+?>
