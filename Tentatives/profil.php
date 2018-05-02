@@ -17,7 +17,7 @@ catch(Exception $e)
 <head>
   <title>R0B1 - accueil</title>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <link href="accueil.css" rel="stylesheet" type="text/css"/>
+  <link href="CSS/graphique.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
   <div id="nav">
